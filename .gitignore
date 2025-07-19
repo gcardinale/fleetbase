@@ -46,3 +46,4 @@ builds/osx/frankenphp
 *.dll
 *.so
 *.dylib
+/console/pnpm-lock.yaml

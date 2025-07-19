@@ -33,11 +33,11 @@
         "@fleetbase/ember-core": "latest",
         "@fleetbase/ember-ui": "latest",
         "@fleetbase/fleetops-data": "latest",
-        "@fleetbase/fleetops-engine": "^0.6.15",
+        "@fleetbase/fleetops-engine": "link:../packages/fleetops",
         "@fleetbase/iam-engine": "^0.1.3",
         "@fleetbase/leaflet-routing-machine": "^3.2.17",
         "@fleetbase/registry-bridge-engine": "^0.0.19",
-        "@fleetbase/storefront-engine": "^0.4.0",
+        "@fleetbase/storefront-engine": "link:../packages/storefront",
         "@fortawesome/ember-fontawesome": "^2.0.0",
         "ember-changeset": "4.1.2",
         "ember-changeset-validations": "4.1.2",
@@ -52,7 +52,8 @@
         "fleetbase-extensions-indexer": "^0.0.5",
         "postcss-at-rules-variables": "^0.3.0",
         "postcss-custom-properties": "^12.1.11",
-        "postcss-nth-list": "^1.0.2"
+        "postcss-nth-list": "^1.0.2",
+        "watch": "^1.0.2"
     },
     "devDependencies": {
         "@babel/core": "^7.25.2",
